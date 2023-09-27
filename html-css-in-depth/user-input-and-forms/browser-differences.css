@@ -1,0 +1,32 @@
+/* 7. Display methods to remain consistent among browsers and devices. */
+
+input {
+    width: 100%;
+}
+
+input[type=text] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+    height: 1em;
+    border: 1px solid #111;
+}
+
+input[type=email] {
+    font-family: Georgia, serif;
+    width: 25%;
+    height: 1em;
+    border: 1px solid blue;
+}
+
+textarea {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+}
+
