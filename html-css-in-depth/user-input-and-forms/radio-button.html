@@ -10,11 +10,29 @@
     <main>
         <h1>Book a Table</h1>
         <form method="post">
-            <label for="user">Username:</label><br>
-            <input type="text" id="user" name="user" required minlength="3" maxlength="12"><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required minlength="5s"><br><br>
-            <input type="submit" value="Submit">
+            <fieldset id="size">
+                <!-- Allow better access for mobile devices -->
+                <label>
+                    <input type="radio" value="2" name="size"> 2-person table
+                </label>
+                <label>
+                    <input type="radio" value="4" name="size" checked> 4-person table
+                </label>
+                <label>
+                    <input type="radio" value="6" name="size"> 6-person table
+                </label>
+            </fieldset>
+            <fieldset id="location">
+                <label>
+                    <input type="radio" value="indoors" name="location" checked> Indoors
+                </label>
+                <label>
+                    <input type="radio" value="outdoors" name="location"> Outdoors
+                </label>
+            </fieldset>
+            <div>
+                <button type="submit">Book table</button>
+            </div>
         </form>
     </main>
     <footer>
