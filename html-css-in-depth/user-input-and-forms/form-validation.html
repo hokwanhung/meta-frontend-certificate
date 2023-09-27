@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 1. Introduce simple form inputs. -->
+<html>
+
+<head></head>
+
+<body>
+    <form>
+        <input type="email">
+        <input type="tel">
+        <input type="url">
+        <input type="date">
+        <input type="time">
+        <input type="number">
+        <input type="range">
+        <input type="color">
+        <!-- or -->
+        <input type="text" id="username" name="username" required>
+        <!-- or -->
+        <button onclick="alert('Are you sure you want to continue?')">
+            <img src="https://yourserver.com/button_img.jpg" alt="Submit the form" height="64" width="64">
+        </button>
+        <!-- or -->
+        <input type="checkbox" id="dog" name="dog" value="Dog">
+        <label for="dog">I like dogs</label>
+        <input type="checkbox" id="cat" name="cat" value="Cat">
+        <label for="cat">I like cats</label>
+        <!-- or -->
+        <input type="radio" id="light" name="theme" value="Light">
+        <label for="light">Light</label>
+        <input type="radio" id="dark" name="theme" value="Dark">
+        <label for="dark">Dark</label>
+        <!-- or -->
+        <form action="myserver.com" method="POST">
+              …
+            <input type="submit" value="Submit" />
+        </form>
+        <!-- or -->
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <!-- or -->
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd">
+        <!-- or -->
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="date of birth">
+        <!-- or -->
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <!-- or -->
+        <input type="hidden" id="custId" name="custId" value="3487">
+        <!-- or -->
+        <input type="image"src="submit_img.png" alt="Submit" width="48" height="48">
+        <!-- or -->
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+        <!-- or -->
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="10">
+        <!-- or -->
+        <input type="reset">
+        <!-- or -->
+        <label for="gsearch">Search in Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+        <!-- or -->
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+        <!-- or -->
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}">
+        <!-- or -->
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" id="homepage" name="homepage">
+        <!-- or -->
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+        <!-- or -->
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
+    </form>
+</body>
+
+</html>

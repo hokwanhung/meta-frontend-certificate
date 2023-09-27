@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- 3. Display a login form example. -->
+<html>
+
+<head></head>
+
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <h1>Sign Up</h1>
+        <form method="post">
+            <label for="user">Username:</label><br>
+            <input type="text" id="user" name="user" required minlength="3" maxlength="12"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="5s"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>Copyright Little Lemon</p>
+    </footer>
+
+    <style>
+        input:focus:invalid {
+            border: 2px solid red;
+        }
+    </style>
+</body>
+
+</html>
