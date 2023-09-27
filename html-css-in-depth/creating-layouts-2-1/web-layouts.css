@@ -1,4 +1,4 @@
-/* Relative CSS rules */
+/* 1. Show relative CSS rules with flexboxes and grids. */
 #sample {
     /* Addressed by flexboxes(1-dimensional) and grids(2-dimensional) */
     display: block; /* grid (larger in scale) */
