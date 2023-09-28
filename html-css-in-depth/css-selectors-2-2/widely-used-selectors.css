@@ -1,0 +1,49 @@
+/* 1. Explain all widely-used selectors. */
+
+/* Element selector */
+p {
+    color: blue;
+}
+
+/* ID selectors */
+#latest {
+    color: white;
+    background-color: blue;
+}
+
+/* Class selectors */
+.navigation {
+    margin: 20px;
+}
+
+/*
+Attribute selectors:
+[attr=value]{} - 
+[attr~=value]() - 
+[attr$=value]() - 
+[attr*=value]() - common value
+*/
+
+/*
+nth-of-type and nth-child selectors::after
+element:nth-child(){ - both for child elements 
+    property: value;
+}
+element:nth-of-type(){
+    property: value;
+}
+*/
+
+/* 
+Star selectors:
+* {
+    property: value;
+}
+*/
+
+/* Group selectors (selector stacking) */
+h1, p {
+    color: blue;
+    text-align: center;
+}
+

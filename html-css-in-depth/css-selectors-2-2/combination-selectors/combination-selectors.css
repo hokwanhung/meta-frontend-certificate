@@ -1,0 +1,20 @@
+/* 2. Explain all combination selectors. */
+/* Descendant selectors -include child, grandchild, and more */
+#blog h1 {
+    color: blue;
+}
+
+/* Child selectors - include child only */
+#blog > h1 {
+    color: blue;
+}
+
+/* General siblings selectors - include all siblings only */
+#blog ~ h1 {
+    color: blue;
+}
+
+/* Adjacent siblings selectors - include next siblings only */
+#blog + h1 {
+    color: blue;
+}
