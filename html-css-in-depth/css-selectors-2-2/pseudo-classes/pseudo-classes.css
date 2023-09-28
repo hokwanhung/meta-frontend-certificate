@@ -1,0 +1,26 @@
+/* 4. Explain what is pseudo-classes and how it works. */
+
+/*
+User action:
+:hover
+:active
+:focus
+*/
+
+/*
+Form state:
+:disabled
+:enabled
+:checked
+:indeterminate
+:valid
+:invalid
+*/
+
+/*
+Specific position-based state:
+:first-of-type
+:last-of-type
+:nth-of-type()
+:nth-last-of-type()
+*/
