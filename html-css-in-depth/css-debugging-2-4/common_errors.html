@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- 1. Display what are the common errors and how to avoid them. -->
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div class="lemon">
+        <a href="#">Lemon</a>
+    </div>
+
+    <style type="text/css" rel="stylesheet">
+
+        .lemon {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .lemon {
+            /* Better write it in one property instead */
+            margin: 0 0 0 0;
+        }
+
+        div a {
+            /* Specificity is important; however, over-specificity can lead to lower performance of the browser. */
+            color: #F4CE14;
+        }
+
+        a {
+            color: #495E57;
+        }
+    </style>
+</body>
+
+</html>
