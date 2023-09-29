@@ -1,0 +1,17 @@
+.minutes {
+    animation: cycle 6s infinite linear;
+}
+
+.hours {
+    animation: cycle 60s infinite linear;
+}
+
+@keyframes cycle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
